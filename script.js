@@ -1,6 +1,6 @@
 // Mengarahkan ke halaman baru
-function pindahKeMenu() {
-    window.location.href = "halaman-menu.html";
+function bukaSosmed(url) {
+    window.open(url, '_blank');
 }
 
 // Alternatif: Membuka di tab baru
@@ -72,3 +72,4 @@ function bukaMenuBaru() {
         };
 
         window.addEventListener('scroll', animateSkills);
+
